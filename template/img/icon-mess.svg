@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1947" data-name="Rectangle 1947" width="14" height="14" transform="translate(1453.879 1297.879)" fill="#75c1a8" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-mess" transform="translate(-1453.879 -1297.879)" clip-path="url(#clip-path)">
+    <g id="bubble-chat_1_" data-name="bubble-chat (1)" transform="translate(1454 1298.833)">
+      <path id="Path_457" data-name="Path 457" d="M12.9,10.071a4.561,4.561,0,0,0-.69-6.085A5.381,5.381,0,0,0,9.18,2.619l-.022-.026A5.447,5.447,0,0,0,5.239.969,5.051,5.051,0,0,0,0,5.805,4.54,4.54,0,0,0,.858,8.459L.073,10.923a.4.4,0,0,0,.567.482l2.387-1.214a5.534,5.534,0,0,0,1.548.413,5.41,5.41,0,0,0,3.943,1.651,5.637,5.637,0,0,0,2.213-.451l2.387,1.214a.4.4,0,0,0,.567-.482ZM3.189,9.38a.4.4,0,0,0-.356,0l-1.7.864.555-1.743a.4.4,0,0,0-.066-.37,3.759,3.759,0,0,1-.816-2.33A4.251,4.251,0,0,1,5.239,1.775a4.726,4.726,0,0,1,2.7.835A5,5,0,0,0,3.278,7.418a4.519,4.519,0,0,0,.581,2.219,4.664,4.664,0,0,1-.67-.257ZM10.924,11a.4.4,0,0,0-.356,0,4.806,4.806,0,0,1-2.051.456A4.251,4.251,0,0,1,4.084,7.418,4.251,4.251,0,0,1,8.517,3.387a4.251,4.251,0,0,1,4.433,4.031,3.758,3.758,0,0,1-.816,2.33.4.4,0,0,0-.066.37l.555,1.743Z" transform="translate(0 -0.969)" fill="#75c1a8"/>
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="0.403" cy="0.403" r="0.403" transform="translate(6.475 6.046)" fill="#75c1a8"/>
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="0.403" cy="0.403" r="0.403" transform="translate(8.088 6.046)" fill="#75c1a8"/>
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="0.403" cy="0.403" r="0.403" transform="translate(9.7 6.046)" fill="#75c1a8"/>
+    </g>
+  </g>
+</svg>

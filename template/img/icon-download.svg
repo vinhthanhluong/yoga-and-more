@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1975" data-name="Rectangle 1975" width="16" height="16" transform="translate(1305 324)" fill="#75c1a8" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-download" transform="translate(-1305 -324)" clip-path="url(#clip-path)">
+    <g id="cloud-download" transform="translate(1303.857 323.429)">
+      <path id="XMLID_98_" d="M14.27,7.022A5.141,5.141,0,0,0,4.213,5.972a4.569,4.569,0,0,0,1.5,8.885h7.429A4,4,0,0,0,14.27,7.022Zm-1.127,6.693H5.714a3.427,3.427,0,0,1-.882-6.738.573.573,0,0,0,.411-.427,4,4,0,0,1,7.9.93.571.571,0,0,0,.477.563,2.855,2.855,0,0,1-.475,5.671Z" fill="#75c1a8"/>
+      <path id="XMLID_104_" d="M11.833,9.31a.571.571,0,0,1,0,.808L9.547,12.4a.571.571,0,0,1-.808,0L6.453,10.118a.571.571,0,0,1,.808-.808l1.31,1.31V6.286a.571.571,0,1,1,1.143,0v4.335l1.31-1.31a.571.571,0,0,1,.808,0Z" fill="#75c1a8"/>
+    </g>
+  </g>
+</svg>

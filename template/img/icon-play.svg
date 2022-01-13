@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2012" data-name="Rectangle 2012" width="24" height="24" transform="translate(375 911)" fill="#75c1a8" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-play" transform="translate(-375 -911)" clip-path="url(#clip-path)">
+    <g id="play-button" transform="translate(375 911)">
+      <g id="Group_418" data-name="Group 418">
+        <g id="Group_417" data-name="Group 417">
+          <path id="Path_491" data-name="Path 491" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,22.286A10.286,10.286,0,1,1,22.286,12,10.286,10.286,0,0,1,12,22.286Z" fill="#75c1a8"/>
+        </g>
+      </g>
+      <g id="Group_420" data-name="Group 420">
+        <g id="Group_419" data-name="Group 419">
+          <path id="Path_492" data-name="Path 492" d="M17.054,11.618a.857.857,0,0,0-.385-.385L9.812,7.8a.857.857,0,0,0-1.24.767v6.857a.857.857,0,0,0,1.24.767l6.857-3.429A.857.857,0,0,0,17.054,11.618Zm-6.768,2.424V9.958L14.369,12Z" fill="#75c1a8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

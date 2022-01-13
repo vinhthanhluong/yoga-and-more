@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2013" data-name="Rectangle 2013" width="24" height="24" transform="translate(375 968)" fill="#191919" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-lock" transform="translate(-375 -968)" opacity="0.6" clip-path="url(#clip-path)">
+    <g id="padlock" transform="translate(374.25 967.25)">
+      <path id="Path_493" data-name="Path 493" d="M12.75.75A6.722,6.722,0,0,0,6,7.5v3a2.21,2.21,0,0,0-2.25,2.25V22.5A2.21,2.21,0,0,0,6,24.75H19.5a2.21,2.21,0,0,0,2.25-2.25V12.75A2.21,2.21,0,0,0,19.5,10.5v-3A6.722,6.722,0,0,0,12.75.75Zm7.5,12V22.5a.709.709,0,0,1-.75.75H6a.709.709,0,0,1-.75-.75V12.75A.709.709,0,0,1,6,12H19.5A.709.709,0,0,1,20.25,12.75ZM7.5,10.5v-3A5.25,5.25,0,0,1,18,7.5v3Z" fill="#191919"/>
+      <path id="Path_494" data-name="Path 494" d="M12.75,14.25A2.21,2.21,0,0,0,10.5,16.5,2.185,2.185,0,0,0,12,18.6v1.65a.75.75,0,0,0,1.5,0V18.6A2.185,2.185,0,0,0,15,16.5,2.21,2.21,0,0,0,12.75,14.25Zm0,3a.75.75,0,1,1,.75-.75A.709.709,0,0,1,12.75,17.25Z" fill="#191919"/>
+    </g>
+  </g>
+</svg>

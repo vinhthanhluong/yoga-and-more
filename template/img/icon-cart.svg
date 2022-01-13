@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1979" data-name="Rectangle 1979" width="26" height="26" transform="translate(1525 45)" fill="#191919" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-cart" transform="translate(-1525 -45)" clip-path="url(#clip-path)">
+    <g id="shopping-cart" transform="translate(1525.106 45)">
+      <path id="XMLID_952_" d="M4.828,19.241a2.69,2.69,0,1,0,2.69-2.69A2.693,2.693,0,0,0,4.828,19.241Zm3.586,0a.9.9,0,1,1-.9-.9A.9.9,0,0,1,8.414,19.241Z" transform="translate(0.552 4.069)" fill="#191919"/>
+      <path id="XMLID_955_" d="M18.483,19.241a2.69,2.69,0,1,0-2.69,2.69A2.693,2.693,0,0,0,18.483,19.241Zm-3.586,0a.9.9,0,1,1,.9.9A.9.9,0,0,1,14.9,19.241Z" transform="translate(3.034 4.069)" fill="#191919"/>
+      <path id="XMLID_958_" d="M3.469,2.483C3.58,3.542,4.817,15.294,5.008,17.109a2.684,2.684,0,0,0,2.675,2.408H21.655a2.705,2.705,0,0,0,2.63-2.127L26.439,7.341a1.794,1.794,0,0,0-1.755-2.169H5.555L5.168,1.493a.9.9,0,0,0-.892-.8H1.586a.9.9,0,0,0,0,1.793ZM24.684,6.966,22.531,17.015a.9.9,0,0,1-.878.709H7.684a.9.9,0,0,1-.892-.8L5.744,6.966Z" transform="translate(-0.69 -0.69)" fill="#191919"/>
+    </g>
+  </g>
+</svg>

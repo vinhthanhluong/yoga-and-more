@@ -1,0 +1,372 @@
+.box-account {
+    overflow: hidden;
+    @include max-media($bk-d-768) {
+        padding-top: 30px;
+    }
+
+    .column {
+        &.sidebar {
+            @include min-media($bk-768) {
+                animation: fade-in-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            }
+        }
+
+        &.col-content {
+            @include min-media($bk-768) {
+                animation: fade-in-right 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            }
+        }
+    }
+
+    .box-list {
+        background-color: $bg-w-cl;
+
+        .box-item {
+            &.curent {
+                .box-link {
+                    background-color: $main-cl;
+                    color: $w-cl;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .box-link {
+            padding: 19px 25px;
+            display: block;
+            position: relative;
+            transition: all .3s ease;
+
+            @include max-media($bk-d-768) {
+                padding: 19px 20px;
+            }
+
+            &::after {
+                content: '\f105';
+                font-family: 'Fontawesome';
+                position: absolute;
+                top: 50%;
+                right: 25px;
+                transform: translateY(-50%);
+                font-size: 20px;
+            }
+
+            &:hover {
+                background-color: $main-cl;
+                color: $t-w-cl;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .account-inner {
+        @include max-media($bk-d-992) {
+            margin-top: 20px;
+        }
+
+        .account-box-name {
+            display: flex;
+            align-items: center;
+        }
+
+        .account-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            margin-right: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                max-width: 100%;
+                object-fit: cover;
+                border-radius: 100%;
+            }
+        }
+
+        .account-tname {
+            margin-bottom: 10px;
+        }
+
+        .account-upload {
+            input {
+                display: none;
+            }
+
+            .account-tup {
+                color: $main-cl;
+                text-transform: capitalize;
+                @include fz-16;
+                position: relative;
+                width: max-content;
+                padding-right: 15px;
+                cursor: pointer;
+
+                &::after {
+                    content: '';
+                    background-image: url('../img/icon-long-up.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    top: 50%;
+                    right: 0%;
+                    transform: translateY(-50%);
+                    width: 10px;
+                    height: 13px;
+                }
+            }
+        }
+
+
+        .account-content {
+            background-color: $bg-w-cl;
+            padding: 44px 40px;
+            margin-top: 30px;
+
+            @include max-media($bk-d-992) {
+                padding: 30px;
+                margin-top: 10px;
+            }
+
+            @include max-media($bk-d-768) {
+                padding: 20px;
+            }
+        }
+
+        .account-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &:nth-child(2) {
+                @include max-media($bk-d-1200) {
+                    flex-direction: column-reverse;
+                }
+            }
+
+            &:not(:first-child) {
+                margin-top: 25px;
+
+                @include max-media($bk-d-992) {
+                    margin-top: 15px;
+                }
+            }
+
+
+            .account-group {
+                width: calc(50% - 10px);
+
+                &:last-child {
+                    @include max-media($bk-576) {
+                        margin-top: 15px;
+                    }
+                }
+
+                @include max-media($bk-576) {
+                    width: 100%;
+                }
+
+                &.acc-wid {
+                    @include max-media($bk-d-1200) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .account-r {
+                width: calc(50% - 10px);
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                @include max-media($bk-d-1200) {
+                    width: 100%;
+                    margin-top: 15px;
+                }
+
+                // .account-group {
+                //     &:last-child{
+                //         margin-top: 15px;
+                //     }
+                // }
+
+            }
+        }
+
+        .account-group {
+            &.w-100 {
+                width: 100%;
+            }
+
+            .f-control {
+                border-radius: 0;
+                border-color: rgba($color: $b-cl, $alpha: 0.1);
+                background-color: $w-cl;
+                padding: 12px 20px;
+                margin-top: 10px;
+                transition: all .3s ease;
+
+                &:hover,
+                &:focus {
+                    border-color: $main-cl;
+                }
+            }
+
+        }
+
+        .account-check {
+            display: flex;
+            align-items: center;
+
+            height: 44px;
+            margin-top: 10px;
+
+            .la-check {
+                cursor: pointer;
+
+                &:first-child {
+                    padding-right: 20px;
+                }
+
+                input {
+                    display: none;
+
+                    &:checked+.checkmark {
+                        .checked {
+                            &::before {
+                                @include visible;
+                            }
+                        }
+                    }
+                }
+
+                .checkmark {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .checked {
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid rgba($color: $g-7070-cl, $alpha: 0.1);
+                    position: relative;
+                    border-radius: 100%;
+                    margin-right: 5px;
+
+                    &::before {
+                        content: "";
+                        width: 8px;
+                        height: 8px;
+                        background-color: $main-cl;
+                        border-radius: 100%;
+                        @include pos-mid;
+                        @include hidden;
+                    }
+                }
+
+                span {
+                    color: rgba($color: $b-cl, $alpha: .3);
+                }
+            }
+        }
+
+    }
+
+    .account-submit {
+        text-align: right;
+        margin-top: 50px;
+
+        @include max-media($bk-d-1200) {
+            margin-top: 35px;
+        }
+
+        .f-sub {
+            cursor: pointer;
+            max-width: 145px;
+            border-radius: 0;
+        }
+    }
+
+    .pass-inner {
+        @include max-media($bk-576) {
+            margin-top: 10px;
+        }
+
+        .pass-title {
+            margin-bottom: 30px;
+
+            @include max-media($bk-d-992) {
+                margin-bottom: 20px;
+            }
+
+            @include max-media($bk-d-768) {
+                margin-bottom: 10px;
+            }
+        }
+
+        .pass-wrap {
+            background-color: $bg-w-cl;
+            padding: 35px 40px;
+
+            @include max-media($bk-d-992) {
+                padding: 30px;
+            }
+
+            @include max-media($bk-d-768) {
+                padding: 20px;
+            }
+        }
+
+        .pass-cols {
+            display: flex;
+            margin: -10px;
+            flex-wrap: wrap;
+
+            @include max-media($bk-576) {
+                margin: -7.5px;
+            }
+        }
+
+        .pass-col {
+            padding: 10px;
+            width: calc(100% / 12 * 6);
+
+            @include max-media($bk-576) {
+                width: 100%;
+                padding: 7.5px
+            }
+
+        }
+
+        .pass-group {
+            &:not(:first-child) {
+                margin-top: 15px;
+            }
+
+            .f-control {
+                border-radius: 0;
+                border-color: rgba($color: $b-cl, $alpha: 0.1);
+                transition: all .3s ease;
+
+                &::placeholder {
+                    color: rgba($color: $b-cl, $alpha: .3);
+                }
+
+                &:hover,
+                &:focus {
+                    border-color: $main-cl;
+                }
+
+            }
+        }
+
+        .account-submit {
+            margin-top: 35px;
+
+            @include max-media($bk-d-992) {
+                margin-top: 25px;
+            }
+        }
+
+    }
+}

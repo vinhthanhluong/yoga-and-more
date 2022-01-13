@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_208" data-name="Rectangle 208" width="35" height="35" transform="translate(570 1273)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-gg" transform="translate(-570 -1273)" clip-path="url(#clip-path)">
+    <g id="google_1_" data-name="google(1)" transform="translate(570 1273)">
+      <path id="Path_83" data-name="Path 83" d="M32.549,13.741H18.272a1.139,1.139,0,0,0-1.139,1.139v4.564a1.139,1.139,0,0,0,1.139,1.139h8.042A10.719,10.719,0,0,1,21.7,25.995l3.425,5.936a17.164,17.164,0,0,0,8.746-15,11.824,11.824,0,0,0-.195-2.241,1.153,1.153,0,0,0-1.124-.944Z" transform="translate(1.132 0.716)" fill="#167ee6"/>
+      <path id="Path_84" data-name="Path 84" d="M18.641,26.239A10.649,10.649,0,0,1,9.43,20.91L3.495,24.328a17.484,17.484,0,0,0,23.9,6.415v-.007L23.97,24.8a10.56,10.56,0,0,1-5.329,1.439Z" transform="translate(-1.141 1.911)" fill="#12b347"/>
+      <path id="Path_85" data-name="Path 85" d="M25.224,30.187V30.18L21.8,24.244a10.587,10.587,0,0,1-5.321,1.439v6.85a17.423,17.423,0,0,0,8.746-2.346Z" transform="translate(1.022 2.467)" fill="#0f993e"/>
+      <path id="Path_86" data-name="Path 86" d="M8.328,17.6a10.587,10.587,0,0,1,1.439-5.321L3.831,8.859a17.4,17.4,0,0,0,0,17.478l5.936-3.418A10.511,10.511,0,0,1,8.328,17.6Z" transform="translate(-1.478 -0.097)" fill="#ffd500"/>
+      <path id="Path_87" data-name="Path 87" d="M18.641,8.2a10.605,10.605,0,0,1,6.76,2.428,1.138,1.138,0,0,0,1.529-.067l3.23-3.23a1.148,1.148,0,0,0-.067-1.679,17.442,17.442,0,0,0-26.6,4.459L9.43,13.528A10.649,10.649,0,0,1,18.641,8.2Z" transform="translate(-1.141 -1.349)" fill="#ff4b26"/>
+      <path id="Path_88" data-name="Path 88" d="M23.238,10.627a1.138,1.138,0,0,0,1.529-.067L28,7.33a1.148,1.148,0,0,0-.067-1.679,17.391,17.391,0,0,0-11.452-4.3V8.2a10.564,10.564,0,0,1,6.76,2.428Z" transform="translate(1.022 -1.349)" fill="#d93f21"/>
+    </g>
+  </g>
+</svg>

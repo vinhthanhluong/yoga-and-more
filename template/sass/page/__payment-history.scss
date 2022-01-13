@@ -1,0 +1,181 @@
+.pay-inner {
+    @include max-media($bk-d-768) {
+        margin-top: 10px;
+    }
+
+    .pay-title {
+        margin-bottom: 30px;
+
+        @include max-media($bk-d-992) {
+            margin-bottom: 10px;
+        }
+
+        @include max-media($bk-d-768) {
+            margin-bottom: 10px;
+        }
+
+        @include max-media($bk-400) {
+            font-size: 28px;
+        }
+    }
+
+    .pay-content {
+        @include max-media($bk-d-768) {
+            height: 577px;
+            overflow-y: auto;
+        }
+
+    }
+
+    .pay-table {
+        @include fz-16;
+        width: 100%;
+
+        thead {
+            background-color: $main-cl;
+
+            @include max-media($bk-d-768) {
+                display: none;
+            }
+
+            td {
+                padding: 14px 20px 14px 0;
+
+                p {
+                    color: $w-cl;
+                    font-weight: 600;
+                }
+
+                &:first-child {
+                    padding-left: 20px;
+                }
+
+
+                &.bx-sst {
+                    width: calc(100% / 12 * 1);
+                }
+
+                &.bx-name {
+                    width: calc(100% / 12 * 5.2);
+                }
+
+                &.bx-day {
+                    width: calc(100% / 12 * 1.8);
+                }
+
+                &.bx-price {
+                    width: calc(100% / 12 * 1.8);
+                }
+
+                &.bx-act {
+                    width: calc(100% / 12 * 2.2);
+                }
+            }
+        }
+
+        table,
+        tbody,
+        th,
+        td,
+        tr {
+            @include max-media ($bk-d-768) {
+                display: block;
+            }
+        }
+
+        tbody {
+            background-color: $bg-w-cl;
+
+            tr {
+                &:not(:first-child) {
+                    border-top: 1px solid rgba($color: $bg-b-cl, $alpha: .1);
+
+                    @include max-media($bk-d-768) {
+                        border: none;
+                    }
+                }
+
+                &:last-child {
+                    @include max-media($bk-d-768) {
+                        border-bottom: 1px solid rgba($color: $bg-b-cl, $alpha: .1);
+                    }
+                }
+
+                @include max-media($bk-d-768) {
+                    &:nth-child(odd) {
+                        background: rgba($color: $main-cl, $alpha: .2);
+                        color: $b-1919-cl;
+                    }
+                }
+            }
+
+            td {
+                padding: 25px 20px 25px 0;
+
+                @include max-media($bk-d-768) {
+                    border: 1px solid rgba($color: $bg-b-cl, $alpha: .1);
+                    border-bottom: 0;
+                    padding-left: 45% !important;
+                    position: relative;
+                    padding: 15px 10px;
+
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        left: 6px;
+                        width: 45%;
+                        padding: 15px 5px;
+                        white-space: nowrap;
+                    }
+
+                    &:nth-of-type(1):before {
+                        content: "STT";
+                    }
+
+                    &:nth-of-type(2):before {
+                        content: "Tên khoá học";
+                    }
+
+                    &:nth-of-type(3):before {
+                        content: "Ngày mua";
+                    }
+
+                    &:nth-of-type(4):before {
+                        content: "Giá";
+                    }
+
+                    &:nth-of-type(5):before {
+                        content: "Trạng thái";
+                    }
+                }
+
+
+                &:first-child {
+                    padding-left: 20px;
+                    text-align: center;
+
+                    @include max-media($bk-d-768) {
+                        text-align: left;
+                    }
+
+                }
+
+                .table-name{
+                    transition: all .3s ease;
+                    cursor: pointer;
+                    &:hover{
+                        color: $main-cl;
+                    }
+                }
+                .unpay{
+                    color: #CC1D1A;
+                }
+
+                .success{
+                    color: #078340;
+                }
+
+            }
+        }
+    }
+}

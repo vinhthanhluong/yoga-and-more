@@ -1,0 +1,170 @@
+.my-course-inner {
+    @include max-media($bk-d-992){
+        margin-top: 20px;
+    }
+    @include max-media($bk-d-768){
+        margin-top: 10px;
+    }
+    .mcourse-title {
+        margin-bottom: 30px;
+        @include max-media($bk-d-992){
+            margin-bottom: 10px;
+        }
+        @include max-media($bk-d-768){
+            margin-bottom: 10px;
+        }
+    }
+
+    .mcourse-content {
+        background-color: $bg-w-cl;
+        padding: 35px;
+        @include max-media($bk-d-992){
+            padding: 25px;
+        }
+        @include max-media($bk-d-768){
+            padding: 20px;
+        }
+    }
+
+    .mcourse-box {
+        &:not(:first-child) {
+            border-top: 1px solid rgba($color: $b-cl, $alpha: .1);
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+    }
+
+    .mcourse-cols {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+
+        @include max-media($bk-d-992) {
+            margin: -7.5px;
+        }
+    }
+
+    .mcourse-col {
+        padding: 15px;
+
+        @include max-media($bk-d-992) {
+            padding: 7.5px;
+        }
+
+        &.mcourse-txt {
+            width: 55%;
+            @include max-media($bk-d-1200){
+                width: 65%;
+            }
+            @include max-media($bk-d-768){
+                width: 100%;
+            }
+            
+        }
+
+        &.mcourse-lf {
+            width: 45%;
+            @include max-media($bk-d-1200){
+                width: 35%;
+            }
+            @include max-media($bk-d-768){
+                width: 100%;
+            }
+
+        }
+    }
+
+    .mcourse-tt {
+        margin-bottom: 15px;
+        transition: all .3s ease;
+        @include line-clamp(2);
+        @include max-media($bk-d-992){
+            margin-bottom: 10px;
+        }
+
+        &:hover {
+            color: $main-cl;
+        }
+    }
+
+    .mcourse-info {
+        display: flex;
+        align-items: center;
+        @include  max-media($bk-576){
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .mcourse-t {
+            color: rgba($color: $b-1919-cl, $alpha: .6);
+
+            &:not(:first-child) {
+                padding-left: 15px;
+                margin-left: 15px;
+                border-left: 1px solid rgba($color: $b-1919-cl, $alpha: .6);
+                @include  max-media($bk-576){
+                    border: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+
+    .mcourse-showcourse {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        @include max-media($bk-d-768){
+           width: max-content;
+           margin-left: auto;
+           
+        }
+       
+        .mcourse-link {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            transition: all .3s ease;
+            @include lh(19,16);
+            @include max-media($bk-d-768){
+                position: static;
+               
+            }
+
+            &:hover {
+                color: $main-cl;
+
+                &::after {
+                    transform: translateX(5px);
+                }
+            }
+
+            &::after {
+                content: "\f105";
+                font-family: "Fontawesome";
+                font-size: 24px;
+                color: $main-cl;
+                padding-left: 10px;
+                transition: all .3s ease;
+                line-height: 19px;
+            }
+        }
+    }
+}
+
+
+
+.featured-course {
+    &.slide-my-course {
+        .course-box {
+            &:hover {
+                background-color: $bg-w-cl;
+            }
+        }
+    }
+}
